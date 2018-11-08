@@ -1,0 +1,15 @@
+{
+  "name": "solar-plus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "seeds of digital",
+  "license": "proprietary",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "lava-x/aws-iot-device-sdk-js",
+    "mqtt-level-store": "2.2.0"
+  }
+}
