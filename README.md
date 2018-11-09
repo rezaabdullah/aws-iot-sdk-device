@@ -8,7 +8,14 @@ npm install
 node thing/index.js
 ```
 
-## Data file location
+## Instruction
 ```
-thing/payload.hs
+Data structure in thing/payload.js
+
+To set value and push data, 
+search interval function.
+
+Interval time set under variable "timeInterval", 
+current default is 60 seconds.
+
 ```
