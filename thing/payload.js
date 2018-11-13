@@ -1,7 +1,10 @@
 module.exports.payload = {
   logger: {
-    _id: "49546986683135544286507457936321625675700192471156785154-l",
+    _id: "loggerId",
     locationId: "8574723183",
+    lotId: "lot123",
+    companyId: "com-123",
+    deviceId: "device123",
     active: true,
     createdAt: "2018-10-23T06:46:48.782Z",
     updatedAt: "2018-10-23T06:46:48.782Z",
@@ -17,8 +20,7 @@ module.exports.payload = {
   inverter: [
     {
       _id: "49546986683135544286507457936321625675700192471156785154-i",
-      locationId: "8574723183",
-      dataLoggerId: "647234075",
+      dataLoggerId: "loggerId", // refer to logger.)ud
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -32,8 +34,7 @@ module.exports.payload = {
     },
     {
       _id: "49546986683135544286507457936321625675700192471156785154-i",
-      locationId: "8574723183",
-      dataLoggerId: "647234075",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -47,8 +48,7 @@ module.exports.payload = {
     },
     {
       _id: "49546986683135544286507457936321625675700192471156785154-i",
-      locationId: "8574723183",
-      dataLoggerId: "647234075",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -62,8 +62,7 @@ module.exports.payload = {
     },
     {
       _id: "49546986683135544286507457936321625675700192471156785154-i",
-      locationId: "8574723183",
-      dataLoggerId: "647234075",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -77,8 +76,7 @@ module.exports.payload = {
     },
     {
       _id: "49546986683135544286507457936321625675700192471156785154-i",
-      locationId: "8574723183",
-      dataLoggerId: "647234075",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -95,7 +93,7 @@ module.exports.payload = {
   powerMeter: [
     {
       _id: "49546986683135544286507457936321625675700192471156785154-pm",
-      locationId: "8574723183",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
@@ -125,7 +123,7 @@ module.exports.payload = {
     },
     {
       _id: "49546986683135544286507457936321625675700192471156785154-pm",
-      locationId: "8574723183",
+      dataLoggerId: "loggerId",
       active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
