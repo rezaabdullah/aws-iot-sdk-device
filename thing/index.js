@@ -26,12 +26,10 @@ interval = setInterval(function() {
   console.log("interval date:" + pdate);
 
   //sample data
-  payload.logger._id = "213213123-l";
-  payload.logger.locationId = "8574723183";
-  payload.logger.lotId = "l48";
-  payload.logger.companyId = "234343";
-  payload.logger.deviceId = "d48";
-  payload.logger.active = true;
+  payload.logger.locationId = "xxxxx-xxx-xxx-xxx-l"; // take from admin panel
+  payload.logger.lotId = "xxxxx-xxx-xxx-xxx-lo"; // take from admin panel
+  payload.logger.companyId = "xxxxx-xxx-xxx-xxx-c"; // take from admin panel
+  payload.logger.deviceId = "xxxxx-xxx-xxx-xxx-d"; // take from admin panel
   payload.logger.createdAt = dat;
   payload.logger.updatedAt = dat;
   payload.logger.powerAdjustment = 400;
@@ -44,9 +42,6 @@ interval = setInterval(function() {
 
   const totalInverter = 5;
   for (let i = 0; i < totalInverter; i++) {
-    payload.inverter[i]._id = "asdasdsad-i";
-    payload.inverter[i].dataLoggerId = payload.logger._id;
-    payload.inverter[i].active = true;
     payload.inverter[i].createdAt = dat;
     payload.inverter[i].updatedAt = dat;
     payload.inverter[i].ref = i + 1;
@@ -60,9 +55,6 @@ interval = setInterval(function() {
 
   const totalPwerMeter = 2;
   for (let j = 0; j < totalPwerMeter; j++) {
-    payload.powerMeter[j]._id = "adasdasda-pm";
-    payload.powerMeter[j].dataLoggerId = payload.logger._id;
-    payload.powerMeter[j].active = true;
     payload.powerMeter[j].createdAt = dat;
     payload.powerMeter[j].updatedAt = dat;
     payload.powerMeter[j].ref = j + 1;

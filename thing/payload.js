@@ -1,11 +1,9 @@
 module.exports.payload = {
   logger: {
-    _id: "loggerId",
     locationId: "8574723183",
     lotId: "lot123",
     companyId: "com-123",
     deviceId: "device123",
-    active: true,
     createdAt: "2018-10-23T06:46:48.782Z",
     updatedAt: "2018-10-23T06:46:48.782Z",
     powerAdjustment: 2,
@@ -19,9 +17,6 @@ module.exports.payload = {
 
   inverter: [
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-i",
-      dataLoggerId: "loggerId", // refer to logger.)ud
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 1,
@@ -33,9 +28,6 @@ module.exports.payload = {
       mpptPower: 6
     },
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-i",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 2,
@@ -47,9 +39,6 @@ module.exports.payload = {
       mpptPower: 6
     },
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-i",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 3,
@@ -61,9 +50,6 @@ module.exports.payload = {
       mpptPower: 6
     },
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-i",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 4,
@@ -75,9 +61,6 @@ module.exports.payload = {
       mpptPower: 6
     },
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-i",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 5,
@@ -92,9 +75,6 @@ module.exports.payload = {
 
   powerMeter: [
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-pm",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 1,
@@ -122,9 +102,6 @@ module.exports.payload = {
       }
     },
     {
-      _id: "49546986683135544286507457936321625675700192471156785154-pm",
-      dataLoggerId: "loggerId",
-      active: true,
       createdAt: "2018-10-23T06:46:48.782Z",
       updatedAt: "2018-10-23T06:46:48.782Z",
       ref: 2,
