@@ -23,27 +23,9 @@ module.exports.payload = {
       effInverter: 8,
       acPower: 1,
       dcPower: 20,
-      pvCurrent: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      pcVoltage: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      mpptPower: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      }
+      pvCurrent: 14,
+      pcVoltage: 19,
+      mpptPower: 6
     },
     {
       createdAt: "2018-10-23T06:46:48.782Z",
@@ -52,27 +34,9 @@ module.exports.payload = {
       effInverter: 8,
       acPower: 1,
       dcPower: 20,
-      pvCurrent: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      pcVoltage: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      mpptPower: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      }
+      pvCurrent: 14,
+      pcVoltage: 19,
+      mpptPower: 6
     },
     {
       createdAt: "2018-10-23T06:46:48.782Z",
@@ -81,27 +45,9 @@ module.exports.payload = {
       effInverter: 8,
       acPower: 1,
       dcPower: 20,
-      pvCurrent: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      pcVoltage: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      mpptPower: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      }
+      pvCurrent: 14,
+      pcVoltage: 19,
+      mpptPower: 6
     },
     {
       createdAt: "2018-10-23T06:46:48.782Z",
@@ -110,27 +56,9 @@ module.exports.payload = {
       effInverter: 8,
       acPower: 1,
       dcPower: 20,
-      pvCurrent: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      pcVoltage: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      mpptPower: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      }
+      pvCurrent: 14,
+      pcVoltage: 19,
+      mpptPower: 6
     },
     {
       createdAt: "2018-10-23T06:46:48.782Z",
@@ -139,27 +67,9 @@ module.exports.payload = {
       effInverter: 8,
       acPower: 1,
       dcPower: 20,
-      pvCurrent: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      pcVoltage: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      },
-      mpptPower: {
-        1: 14,
-        2: 18,
-        3: 20,
-        4: 27,
-        5: 28
-      }
+      pvCurrent: 14,
+      pcVoltage: 19,
+      mpptPower: 6
     }
   ],
 
